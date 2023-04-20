@@ -28,6 +28,11 @@ body{
     height: 300px;
 }
 
+#container2{
+    border: 0px;
+    justify-content: space-evenly;
+}
+
 #dragDiv{
     border: 5px solid orangered;
     background-color: orange;
@@ -56,4 +61,22 @@ body{
     font-size: xx-large;
     font-weight: bold;
     background-color: yellowgreen;
+}
+
+#dropDiv2{
+    border:5px dashed green;
+    color: green;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: yellowgreen;
+    margin: 0.5%;
+    width: 280px;
+    height: 100px;
+}
+
+img{
+    margin-left: 5%;
+    z-index: 100;
+    padding: 1%;
+    border: 4px dashed orangered;
 }
